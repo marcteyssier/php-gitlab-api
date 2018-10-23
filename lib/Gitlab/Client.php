@@ -275,14 +275,6 @@ class Client
     }
 
     /**
-     * @return Api\Environments
-     */
-    public function environments()
-    {
-        return new Api\Environments($this);
-    }
-
-    /**
      * @param string $name
      *
      * @return AbstractApi|mixed
